@@ -6,6 +6,10 @@ public class PrivateChat {
     private Chat chat;
     private long targetClientId;
 
+    public PrivateChat(Chat chat) {
+        this.chat = chat;
+    }
+
     public Chat getChat() {
         return chat;
     }
